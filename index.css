@@ -194,7 +194,7 @@ nav{
     color: #757575;
 }
 .resume p{
-    width: 380px;
+    width: 344px;
 }
 .summary-container button{
     margin: 50px 603px;
@@ -233,4 +233,67 @@ nav{
 .inputs input{
     width: 300px;
     height: 42px;
+}
+
+
+/* Responsive */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .article-2{
+        width: 100%;
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+    .article-2 p, .edu-container p{
+        width: 300px;
+    }
+    .article-2 .h3-2{
+        font-size: 50px;
+    }
+    .beda{
+        display: none;
+    }
+    nav, .hero, .info-container, .info-container .para, .info, .my-work-container, .my-work-container .para, 
+    .card-container, .resume, .summary-container .btn-2, .footer, .right-footer, .left-footer, .footer-icons{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .info{
+        margin-bottom: 100px;
+
+    }
+    .card-container{
+        justify-self: center;
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 50px;
+    }
+    .summary-container h1{
+        font-size: 180%;
+    }
+    .article-2, .edu-container, .left-footer{
+        width: 100%;
+    }
+    .my-edu-exp{
+        font-size: 170%;
+    }
+    .resume-h3{
+        font-size: 150%;    
+    }
+    .resume-h4{
+        font-size: 125%;    
+    }
+    .left-footer{
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+    .inputs input, textarea{
+        padding-left: 0;
+    }
 }
